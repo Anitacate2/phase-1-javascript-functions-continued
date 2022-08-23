@@ -4,7 +4,7 @@ describe("index.js", () => {
       expect(saturdayFun).to.exist
     })
 
-    it("uses the default activity 'roller-skate' when no arguments are passed", function() {
+    it("uses the default activity 'saturdayFun' when no arguments are passed", function() {
       expect(saturdayFun()).to.equal("This Saturday, I want to roller-skate!")
     })
 
